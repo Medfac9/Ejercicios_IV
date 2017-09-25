@@ -15,6 +15,7 @@ Usando las tablas de precios de servicios de alojamiento en Internet “clásico
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
 | VPS Cloud RAM | 4 | NC6 | 60 GB | 100 GB | 0,194 €/hora + IVA |
 | Microsoft Azure | 6 | R2-60 | 56 GB | 340 GB | €0,984/hora |
+
 En un año hay 8640 horas, si usamos el 1% de los servidores :
 * VPS Cloud RAM: 16,7616€ + IVA.
 * Microsoft Azure: 85,0176€.  

@@ -14,7 +14,7 @@ Usando las tablas de precios de servicios de alojamiento en Internet “clásico
 |  | Instancia | CPU | RAM | Memoria | Precio hora |
 | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
 | VPS Cloud RAM | 4 | NC6 | 60 GB | 100 GB | 0,194 €/hora + IVA |
-| Microsoft Azure | 6 | R2-60 | 56 GB | 340 GB | €0,984/hora |
+| Microsoft Azure | 6 | R2-60 | 56 GB | 340 GB | 0,984 €/hora |
 
 En un año hay 8640 horas, si usamos el 1% de los servidores :
 * VPS Cloud RAM: 16,7616€ + IVA.
@@ -25,3 +25,27 @@ Si usamos el 10% de los servidores :
 * Microsoft Azure: 850,176€.
 
 ## Ejercicio 3
+En general, cualquier ordenador con menos de 5 o 6 años tendrá estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden? Si usas una máquina virtual, ¿qué resultado da? ¿Y en una Raspberry Pi o, si tienes acceso, el procesador del móvil?  
+Modelo del procesador: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz  
+![Captura de pantalla](https://imgur.com/upDkH0E.jpg)
+## Ejercicio 4
+Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.  
+![Captura de pantalla](https://imgur.com/cdW41A6.jpg)
+
+Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
+
+Voy a instalar el hipervisor LXD con el siguiente comando:  
+`apt-get -t trusty-backports install lxd`
+
+Y lo iniciamos con el comando:  
+`sudo lxd init`
+
+## Ejercicio 5
+Darse de alta en servicios de nube usando ofertas gratuitas o cupones que pueda proporcionar el profesor.
+
+Mes he dado de alta en Amazon Web Services como estudiante obteniendo así un crédito de 100$ para usar sus servicios.
+
+## Ejercicio 6
+Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.
+
+Ccon Amazon Web Services podemos probar sus sistemas de gestión de nube de forma gratuita haciendo gracias al saldo por registrarnos como estudiantes.
